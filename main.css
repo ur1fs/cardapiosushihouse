@@ -1,0 +1,17 @@
+/* Estilos Responsivos */
+.container {
+    max-width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.articles img {
+    width: 100%;
+    height: auto;
+}
